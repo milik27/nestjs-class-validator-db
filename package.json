@@ -1,0 +1,38 @@
+{
+  "name": "nestjs-class-validator-db",
+  "version": "1.0.0",
+  "description": "NestJS module db class validator",
+  "readmeFilename": "README.md",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "keywords": [
+    "nestjs",
+    "class-validator",
+    "typeorm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milik27/nestjs-class-validator-db.git"
+  },
+  "author": "Nikita<nikitati27@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milik27/nestjs-class-validator-db/issues"
+  },
+  "homepage": "https://github.com/milik27/nestjs-class-validator-db#readme",
+  "dependencies": {
+    "@nestjs/common": "^9.4.0",
+    "@nestjs/typeorm": "^9.0.1",
+    "class-validator": "^0.14.0",
+    "typeorm": "^0.3.15",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3"
+  }
+}
